@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/components/Home'
 import Menu from '@/components/Menu'
-// import Sand from '@/components/Sand'
+import Nutrition from '@/components/Nutrition' 
 
 Vue.use(VueRouter)
 
@@ -18,16 +18,20 @@ Vue.use(VueRouter)
     name: 'Menu',
     component: Menu
   },
-  // {
-  //   path: '/sandwiches',
-  //   name: 'Sand',
-  //   component: Sand
-  // },
+   {
+     path: '/nutrition',
+     name: 'Nutrition',
+     component: Nutrition
+   },
   
 ]
 
+
+
+
 const router = new VueRouter({
   routes
+  
 })
 
 export default router

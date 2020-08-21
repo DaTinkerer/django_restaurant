@@ -2,9 +2,10 @@
   <div id="app">
     <nav>
       <ul>
+        <li><router-link to="/">Home</router-link></li>
         <li><router-link to="menu">Menu</router-link></li>
-        <li><a href="#">Nutrition</a></li>
-        <li><a href="#">BYO</a></li>
+        <li><router-link to="nutrition">Nutrition</router-link></li>
+        
         
         
       </ul>
